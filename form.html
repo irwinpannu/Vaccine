@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="form.css" rel="stylesheet">
+    <title>Vaccine</title>
+</head>
+<body>
+    <h1> Fill out this form to get your covid vaccine.</h1>
+    <form action="forms.html" method="get">
+        <label>Full Name </label>
+        <input type="text" placeholder="Enter your name here" required><br><br>
+        <label>Age </label>
+        <input type="number" min="6" max="100" required><br><br>
+        <label>Email</label>
+        <input type="email" required><br><br>
+        <label>Phone number </label>
+        <input type="number" required><br><br>
+        <label>Gender </label>
+        <input type="radio" required name="A">Male
+        <input type="radio" name="A">Female
+        <input type="radio" name="A">Other<br><br>
+        <label>Which dose are you going to get? </label>
+        <input type="radio" required name="B">First
+        <input type="radio" name="B">Second
+        <input type="radio" name="B">Third<br><br>
+        <label>Which vaccine do you want to get? </label>
+        <input type="radio" required name="C">Pfizer
+        <input type="radio" name="C">Moderna<br><br>
+        <h3> Click on submit when your done filling out the form.</h3>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html> 
